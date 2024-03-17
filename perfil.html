@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <title>Alfredo Perez del Angel</title>
+</head>
+<body>
+    <div style="margin: 24px;">
+        <nav class="nav navbar-light"
+        style="background-color: rgba(74, 22, 122, 0.829);">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><inicio/a>
+            <div class="collapse navbar-collapse"
+            id="navbarNavDropdown">
+        <ul class="nav navbar-nav">
+        <li class="nav navbar-nav">
+            <a class="nav-limk dropdown-toggle" href="a"
+            id="nav-limk dropdown-toggle.ink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false">unidad 1</a>
+            <div class="nav-item dropdown">
+                <a class="dropdown-item" 
+                href="menu.html">Perfil</a><br>
+                <a class="dropdown-item" 
+                href="calculadora.html">calculadora</a>
+                <a class="dropdown-item" 
+                href="tienda.html">Tienda</a>
+            </div>
+        </li>
+        <li class="nav navbar-nav">
+            <a class="nav-limk dropdown-toggle" href="a"
+            id="nav-limk dropdown-toggle.ink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false">unidad 2</a>
+            <div class="dropdown-menu"
+            aria-labelledby="navbarDropdownMenulink">
+                <a class="dropdown-item" 
+                href="Tienda.html">tienda pedido</a><br>
+                <a class="dropdown-item" 
+                href="jhon.html">json</a>
+                <a class="dropdown-item" 
+                href="tienda2.html">Tienda pedido 2</a>
+            </div>
+        </li>
+        <li class="nav navbar-nav">
+            <a class="nav-limk dropdown-toggle" href="a"
+            id="nav-limk dropdown-toggle.ink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false">unidad 3</a>
+            <div class="dropdown-menu"
+            aria-labelledby="navbarDropdownMenulink">
+                <a class="dropdown-item" 
+                href="basededatos.html">Base de datos</a><br>
+                <a class="dropdown-item" 
+                href="Peliculas.html">peliculas</a>
+            </div>
+        </li>
+        </ul>
+    </div>
+    <style>
+        body{
+            background-color: rgb(20, 20, 209);
+            font-family: Arial, Helvetica, sans-serif;
+            color: aquamarine;
+            text-align: center;
+        }
+        .perfil{
+            margin: 20px auto;
+            width: 70%;
+            max-width: 600px;
+            background-color: black;
+            padding: 0 20px 20px #000;
+        }
+        .foto-perfil{
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+        }
+    </style>
+    <div class="Perfil">
+        <img src="img\goku,jpg.jpg" alt="goku" class="foto-perfil">
+        <h1 id="nombre">Nombre</h1>
+        <p id="formacion">Formacion Academica</p>
+        <h2>Alfredo</h2>
+        <ul>
+            <li id="musica">Musica favorita</li>
+            <li id="peliculas">Peliculas favoritas</li>
+            <li id="pasatiempos">pasatiempos</li>
+        </ul>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded",function(){
+        document.getElementById("nombre").innerHTML = "Alfredo Perez";
+        document.getElementById("formacion").innerHTML = "Alumno";
+        document.getElementById("musica").innerHTML = "Electronica y phonk";
+        document.getElementById("peliculas").innerHTML = "El gato con botas 2";
+        document.getElementById("pasatiempos").innerHTML = "jugar videojuegos";
+        })
+    </script>
+</body>
+</html>

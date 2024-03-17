@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <title>restaurante alfred</title>
+</head>
+<body>
+    <h1>menu de restaurante</h1>
+    <style>
+        img{
+            width: 200px;
+            height: auto;
+        }
+        table,th,td {
+            border: 1px solid blue;
+            text-align: left;
+            padding: 10px;
+        }
+        table{
+            width: 100%;
+            margin: 20px;
+            border-collapse: collapse;
+            box-shadow: 0 5px 15px red;
+            margin-left: 50px;
+        }
+        tr:nth-child(odd){
+            background-color: blueviolet;
+        }
+        tr:hover{
+            background-color: rgb(23, 70, 54);
+        }
+    </style>
+    <h1>Bebidas</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="img\agua.png" alt="agua"></td>
+            <td><p>refrescante agua fresca</p></td>
+            <td>$10</td>
+        </tr>
+        <tr>
+            <td><img src="img\agua de sabor.png" alt="agua de sabor"></td>
+            <td><p>agua de sabor variado</p></td>
+            <td>30$</td>
+        </tr>
+        <tr>
+            <td><img src="img\bebida dietetica.png" alt="Bebida dietetica"></td>
+            <td><p>agua de sabor dietetico</p></td>
+            <td>40$</td>
+        </tr>
+        <tr>
+            <td><img src="img\bebidas-suaves.png" alt="bebidas-suaves"></td>
+            <td><p>agua de sabor suave para relajar</p></td>
+            <td>39$</td>
+        </tr>
+        <tr>
+            <td><img src="img\coca.png" alt="coca cola"></td>
+            <td><p>rica coca cola</p></td>
+            <td>20$</td>
+        </tr>
+        <tr>
+            <td><img src="img\cerveza.png" alt="cerveza"></td>
+            <td><p>cerveza para quitar la sed</p></td>
+            <td>48$</td>
+        </tr>
+    </table>
+    <h1>Postres</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="img\tartadeflan.png" alt="postre"></td>
+            <td><p>tarta de flan</p></td>
+            <td>$47</td>
+        </tr>
+        <tr>
+            <td><img src="img\pastelitos de chocolate y fresa.png" alt="pastelitos"></td>
+            <td><p>pastelitos de chocolate</p></td>
+            <td>60$</td>
+        </tr>
+        <tr>
+            <td><img src="img\postre de mango.png" alt="postre de mango"></td>
+            <td><p>postre de mango</p></td>
+            <td>50$</td>
+        </tr>
+        <tr>
+            <td><img src="img\postre italiano.png" alt="postre italiano"></td>
+            <td><p>postre italiano</p></td>
+            <td>30$</td>
+        </tr>
+        <tr>
+            <td><img src="img\postre sin azucar.png" alt="postre sin azucar"></td>
+            <td><p>postre sin azucar</p></td>
+            <td>30$</td>
+        </tr>
+        <tr>
+            <td><img src="img\postremaracuya.png" alt="postremaracuya"></td>
+            <td><p>postre de maracuya</p></td>
+            <td>50$</td>
+        </tr>
+    </table>
+    <h1>desayunos</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="img\desayuno americano.png" alt="desayuno americano"></td>
+            <td><p>desayuno americano</p></td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td><img src="img\desayuno keto.png" alt="desayuno keto"></td>
+            <td><p>desayuno tipo keto</p></td>
+            <td>$70</td>
+        </tr>
+        <tr>
+            <td><img src="img\desayunodietetico.png" alt="desayuno dietetico"></td>
+            <td><p>desayuno dietetico</p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="img\pancakes.png" alt="pancakes"></td>
+            <td><p>pankeis</p></td>
+            <td>75$</td>
+        </tr>
+        <tr>
+            <td><img src="img\cafe con pan.png" alt="cafe con pan"></td>
+            <td><p>cafe con pan</p></td>
+            <td>21$</td>
+        </tr>
+    </table>
+    <h1>comidas</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="img\flautas.png" alt="flautas"></td>
+            <td><p>flautas</p></td>
+            <td>45$</td>
+            <tr>
+                <td><img src="img\pozole.png" alt="pozole"></td>
+                <td><p>Rico pozole</p></td>
+                <td>60$</td>
+            </tr>
+            <tr>
+                <td><img src="img\tostadas.png" alt="tostadas"></td>
+                <td><p>tostadas</p></td>
+                <td>30$</td>
+            </tr>
+            <tr>
+                <td><img src="img\caldoderes.png" alt="caldo de res"></td>
+                <td><p>caldo de res</p></td>
+                <td>40$</td>
+            </tr>
+            <tr>
+                <td><img src="img\tacos.png" alt="tacos mexicanos"></td>
+                <td><p>tacos mexicanos</p></td>
+                <td>96$</td>
+            </tr>
+            <tr>
+                <td><img src="img\pambazo.png" alt="pambazo"></td>
+                <td><p>pambazo</p></td>
+                <td>55$</td>
+            </tr>
+        </tr>
+    </table>
+    <h1>cenas</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="img\cenanrollados.png" alt="enrollados de pollo"></td>
+            <td><p>enrollados de pollo</p></td>
+            <td>48$</td>
+        </tr>
+        <tr>
+            <td><img src="img\cenafindeaño.png" alt="cena de fin de año"></td>
+            <td><p>cena para fin de año</p></td>
+            <td>250$</td>
+        </tr>
+        <tr>
+            <td><img src="img\cenaelegante.png" alt="cena elegante"></td>
+            <td><p>cena elegante</p></td>
+            <td>350$</td>
+        </tr>
+        <tr>
+            <td><img src="img\cenade tomate.png" alt="cena entomatada"></td>
+            <td><p>cena de rojo</p></td>
+            <td>150$</td>
+        </tr>
+        <tr>
+            <td><img src="img\cena huevos.png" alt="cena huevos"></td>
+            <td><p>cena con huevos</p></td>
+            <td>90$</td>
+        </tr>
+        <tr>
+            <td><img src="img\cenacarne.png" alt="cena de carne"></td>
+            <td><p>cena con carne</p></td>
+            <td>200$</td>
+        </tr>
+    </table>
+</body>
+</html>

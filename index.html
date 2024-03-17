@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfredo Perez del Angel</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgb(20, 20, 209);
+            font-family: Arial, Helvetica, sans-serif;
+            color: aquamarine;
+            text-align: center;
+        }
+        .perfil{
+            margin: 20px auto;
+            width: 70%;
+            max-width: 600px;
+            background-color: black;
+            padding: 0 20px 20px #000;
+        }
+        .foto-perfil{
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+        }
+    </style>
+    <div class="Perfil">
+        <img src="img perfil\goku,jpg.jpg" alt="goku" class="foto-perfil">
+        <h1 id="nombre">Nombre</h1>
+        <p id="formacion">Formacion Academica</p>
+        <h2>Alfredo</h2>
+        <ul>
+            <li id="musica">Musica favorita</li>
+            <li id="peliculas">Peliculas favoritas</li>
+            <li id="pasatiempos">pasatiempos</li>
+        </ul>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded",function(){
+        document.getElementById("nombre").innerHTML = "Alfredo Perez";
+        document.getElementById("formacion").innerHTML = "Alumno";
+        document.getElementById("musica").innerHTML = "Electronica y phonk";
+        document.getElementById("peliculas").innerHTML = "El gato con botas 2";
+        document.getElementById("pasatiempos").innerHTML = "jugar videojuegos";
+        })
+    </script>
+</body>
+</html>
